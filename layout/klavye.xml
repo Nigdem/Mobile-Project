@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".klavye"
+    android:background="@color/colorBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:src="@drawable/img1"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anasayfa"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="donus22"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayarlar"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="180dp"
+        android:onClick="donus24"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Ekipmanlar"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="donus25"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hakkımızda"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="180dp"
+        android:onClick="donus23"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img38"
+                android:src="@drawable/img38"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-20dp"
+                android:layout_marginLeft="40dp"
+                android:text="Polosmart PGM11 Versus Gaming Klavye " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="300 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/klavyebackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img39"
+                android:src="@drawable/img39"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Gamepower Calypso Mekanik Oyuncu Klavye " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="600 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/klavyebackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img40"
+                android:src="@drawable/img40"
+                android:layout_marginTop="20dp"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="Logitech G213 Prodigy RGB Oyuncu Klavye " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1000 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/klavyebackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img41"
+                android:src="@drawable/img41"
+
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-40dp"
+                android:layout_marginLeft="50dp"
+                android:text="Razer Blackwidow V3  Gaming Klavye " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1500 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/klavyebackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img42"
+                android:src="@drawable/img42"
+                android:layout_marginTop="10dp"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-40dp"
+                android:layout_marginLeft="35dp"
+                android:text="SteelSeries Apex 5 Hybrid Gaming Klavye " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2000 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/klavyebackground"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

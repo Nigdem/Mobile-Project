@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".small"
+    android:background="@color/colorBackground">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:src="@drawable/img1"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anasayfa"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="donus26"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayarlar"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="180dp"
+        android:onClick="donus28"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Ekipmanlar"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="donus29"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hakkımızda"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="180dp"
+        android:onClick="donus27"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img43"
+                android:src="@drawable/img43"
+                android:scaleType="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="220dp"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-220dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="0dp"
+                android:text="- Intel Pentium G6400 4.0GHz 4MB  İşlemci
+                                                      - MSI A320M-A PRO 3200MHz(OC) DDR4 Anakart
+                                                      - CORSAIR 8GB Vengeance 3000MHz DDR4
+                                                     - MSI GEFORCE GTX 1050 TI 4GB GDDR5 128bit NVIDIA Ekran Kartı
+- WD Blue 3,5 500GB 32MB SATA III 6Gb/s 7200 RPM DİSK
+                                - ADATA 240GB SU630 SATA 3.0 2.5 SSD  " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4500 TL"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="@color/smallbackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img44"
+                android:src="@drawable/img44"
+                android:scaleType="center"
+                android:layout_marginRight="220dp"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-220dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="0dp"
+                android:text="- INTEL Core i3 10100F 3.60GHz 6MB İşlemci
+                                              - ASUS PRIME H410M-R-SI 2933MHz DDR4 Anakart
+                                              - HYPERX 8GB 2666MHz DDR4 Ram
+                                              - ASUS PHOENIX Radeon RX550 EVO 2GB GDDR5 128 Bit Ekran Kartı
+                                              - Seagate Barracuda 1TB 3.5″ 7200RPM 210MB/s 64MB Disk
+                                         - PATRIOT 240GB BURST SATA 3.0 2.5 SSD   " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5500 TL"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="@color/smallbackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img46"
+                android:src="@drawable/img46"
+                android:scaleType="center"
+                android:layout_marginRight="220dp"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-220dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="0dp"
+                android:text="- INTEL Core i3 10100  1200 10. Nesil 3.6GHz İşlemci
+                                            - ASUS PRIME H410M-R-SI 2933MHz DDR4 Anakart
+                                           - HYPERX 8GB 2666MHz DDR4 Ram
+                                       - ASUS GeForce Cerberus GTX 1050 Ti 4GB GDDR5 128Bit Ekran Kartı
+                                                        - Seagate Barracuda 1TB 3.5″ 7200RPM Disk
+                                            -  ADATA 480GB SU630 SATA 3.0 2.5 SSD
+            " />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6500 TL"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="@color/smallbackground"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

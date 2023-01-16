@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".medium"
+    android:background="@color/colorBackground">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:src="@drawable/img1"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anasayfa"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="donus30"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayarlar"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="180dp"
+        android:onClick="donus32"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Ekipmanlar"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="donus33"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hakkımızda"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="180dp"
+        android:onClick="donus31"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img48"
+                android:src="@drawable/img48"
+                android:scaleType="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="220dp"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-220dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="0dp"
+
+                android:text="- AMD RYZEN 3 3100 MPK 3.6GHz 18MB İşlemci
+
+                                               - GIGABYTE A320M H 3200MHz DDR4 HDMI  Anakart
+                                            - XPG 8GB Gammix D30 3200MHz DDR4 Ram
+                                                - MSI GEFORCE GTX 1050 TI GAMING 4GB GDDR5  Ekran Kartı
+                                                            - WD Blue 3,5 500GB 32MB 7200 RPM
+                                                         - ADATA 400GB SU630 SATA 3.0 2.5 SSD  " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7000 TL"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="@color/smallbackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img49"
+                android:src="@drawable/img49"
+                android:scaleType="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="220dp"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-220dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="0dp"
+
+                android:text="- AMD RYZEN 3 3100 MPK 3.6GHz İşlemci
+                                                     - ASUS PRIME B450M-K II AMD B450 DDR4 Anakart
+                                                        - GSKILL 8GB Ripjaws 3200MHz DDR4  RAM
+                                                - GIGABYTE GeForce GTX 1650 D6 4GB GDDR6 Ekran Kartı
+                                                            - WD Blue 3,5 2TB 256MB SATA III 5Gb/s 5400 RPM DISK
+                                                         - ADATA 480GB SU630 SATA 3.0 2.5 SSD  " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8000 TL"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="@color/smallbackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img50"
+                android:src="@drawable/img50"
+                android:scaleType="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="220dp"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-220dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="0dp"
+
+                android:text="- AMD RYZEN 3 3100 MPK 3.6GHz
+                                                     - MSI B450M-A 4133MHz DDR4  Anakart
+                                                        - XPG 8GB  D30  3000MHz  DDR4 Ram
+                                                            - Sapphire RX560 GDDR5 2GD5  AMD  DX12 Ekran Kartı
+                                                            - WD Blue 3,5'' 2TB 256MB SATA III 5Gb DISK
+                                                         - KIOXIA EXCERIA 480GB SATA 3.0 2.5 SSD  " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9000 TL"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:backgroundTint="@color/smallbackground"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

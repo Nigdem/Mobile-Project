@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kulaklik"
+    android:background="@color/colorBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:src="@drawable/img1"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anasayfa"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="donus14"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayarlar"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="180dp"
+        android:onClick="donus16"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Ekipmanlar"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="donus17"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hakkımızda"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="180dp"
+        android:onClick="donus15"
+        />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img27"
+                android:src="@drawable/img27"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-20dp"
+                android:layout_marginLeft="60dp"
+                android:text="Cougar Immersa Ti CGR-P40NB-310" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="250 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/kulaklıkbackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img28"
+                android:src="@drawable/img28"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="115dp"
+                android:text="Asus ROG Delta White" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/kulaklıkbackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img29"
+                android:src="@drawable/img29"
+                android:layout_marginTop="10dp"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:text="HyperX Cloud II 2 7.1 Gamer Kulaklık" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1000 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/kulaklıkbackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img30"
+                android:src="@drawable/img30"
+                android:layout_marginTop="10dp"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:text="Razer Kraken Tournament Edition 7.1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2000 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/kulaklıkbackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img32"
+                android:src="@drawable/img32"
+                android:layout_marginTop="10dp"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="85dp"
+                android:text="SteelSeries Arctis 7 Siyah 7.1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3000 TL"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="@color/kulaklıkbackground"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

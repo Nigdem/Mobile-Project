@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".monitor"
+    android:background="@color/colorBackground">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img1"
+            android:src="@drawable/img1"
+            android:scaleType="center"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anasayfa"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="180dp"
+            android:layout_marginLeft="90dp"
+            android:onClick="donus10"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bilgisayarlar"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="180dp"
+            android:onClick="donus12"
+            />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Ekipmanlar"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="180dp"
+            android:layout_marginLeft="90dp"
+            android:onClick="donus13"
+            />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hakkımızda"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="180dp"
+            android:onClick="donus11"
+            />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img20"
+                android:src="@drawable/img20"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-20dp"
+                android:layout_marginLeft="45dp"
+                android:text="MSI Optix G241VC 23.6 75Hz 1ms FHD" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2000 TL"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:backgroundTint="@color/butonBackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img21"
+                android:src="@drawable/img21"
+                android:scaleType="center"/>
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-20dp"
+                android:layout_marginLeft="55dp"
+
+                android:text="ASUS 24 VG24VQ  1Ms 144Hz HDMI " />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2500 TL"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:backgroundTint="@color/butonBackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img22"
+                android:src="@drawable/img22"
+                android:scaleType="center"/>
+
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-20dp"
+                android:layout_marginLeft="45dp"
+
+                android:text="ASUS VG278Q 27 0,5 ms 165 Hz HDMI" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3000 TL"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:backgroundTint="@color/butonBackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img23"
+                android:src="@drawable/img23"
+                android:scaleType="center"/>
+
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-10dp"
+                android:layout_marginLeft="50dp"
+
+                android:text="27” CRG5 1 ms 240 Hz Full HD HDMI" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4000 TL"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:backgroundTint="@color/butonBackground"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img26"
+                android:src="@drawable/img26"
+                android:scaleType="center"/>
+
+            <EditText
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-10dp"
+                android:layout_marginLeft="20dp"
+                android:text="Asus ROG Swift PG259QNR 25 360Hz 1ms" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5000 TL"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:backgroundTint="@color/butonBackground"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
